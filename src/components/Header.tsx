@@ -5,7 +5,7 @@ export default function Header() {
         <a href="#">
           <h1 className="text-xl font-bold">Danilo Barbosa</h1>
         </a>
-        <nav className="flex items-center gap-6">
+        <nav className="hidden md:flex items-center gap-6">
           <a
             href="#sobre"
             className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400"
