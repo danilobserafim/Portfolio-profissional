@@ -20,10 +20,14 @@ export default function Contact() {
       >
         Entre em contato para projetos, parcerias ou oportunidades.
       </motion.p>
-      <motion.p className="text-lg font-medium">
+      <motion.p className="text-lg font-medium flex justify-center gap-2 items-center">
+        <img style={{ maxWidth: "24px" }} src="email.png" />
         danilob.serafim@gmail.com
       </motion.p>
-      <motion.p className="text-lg font-medium">(81)9 9768-6925</motion.p>
+      <motion.p className="text-lg font-medium flex justify-center gap-2 items-center">
+        <img style={{ maxWidth: "24px" }} src="whatsapp.png" />
+        (81)9 9768-6925
+      </motion.p>
     </section>
   );
 }
