@@ -20,7 +20,10 @@ export default function Contact() {
       >
         Entre em contato para projetos, parcerias ou oportunidades.
       </motion.p>
-      <motion.p className="text-lg font-medium">danilo@exemplo.com</motion.p>
+      <motion.p className="text-lg font-medium">
+        danilob.serafim@gmail.com
+      </motion.p>
+      <motion.p className="text-lg font-medium">(81)9 9768-6925</motion.p>
     </section>
   );
 }
